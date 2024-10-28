@@ -1,47 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Catalog - Rainbow Books</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Our Books</h1>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="catalog.html">Books</a> |
-            <a href="cart.html">Cart</a> |
-            <a href="payment.html">Checkout</a>
-        </nav>
-    </header>
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+}
 
-    <main>
-        <section class="catalog">
-            <div class="book">
-                <img src="book1.jpg" alt="Book 1">
-                <h3>The Great Gatsby</h3>
-                <p>$15.00</p>
-                <button>Add to Cart</button>
-            </div>
-            <div class="book">
-                <img src="book2.jpg" alt="Book 2">
-                <h3>1984</h3>
-                <p>$12.00</p>
-                <button>Add to Cart</button>
-            </div>
-            <div class="book">
-                <img src="book3.jpg" alt="Book 3">
-                <h3>Harry Potter</h3>
-                <p>$20.00</p>
-                <button>Add to Cart</button>
-            </div>
-        </section>
-    </main>
+/* Header Styles */
+header {
+    background-color: #ff6f61; /* Bright coral color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+}
 
-    <footer>
-        <p>&copy; 2024 Rainbow Books</p>
-    </footer>
-</body>
-</html>
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+/* Section Titles */
+h1, h2 {
+    color: #ff6f61;
+}
+
+/* Button Styles */
+button {
+    background-color: #1e90ff; /* Dodger blue */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1c86ee; /* Slightly darker blue
+
